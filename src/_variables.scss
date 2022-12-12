@@ -1,0 +1,122 @@
+@use 'igniteui-angular/theming' as *;
+@forward 'igniteui-angular/theming';
+
+$primary: #1c9b8c !default;
+$secondary: #22215f !default;
+
+$info: #1377d5;
+$success: #4eb862;
+$warn: #fbb13c;
+$error: #ff134a;
+
+$gray: #121212;
+$surface: #fff;
+
+$custom-font: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+
+$custom-type-scale: type-scale(
+        $_meta: (variant: 'fluent'),
+        $h1: type-style(
+                $font-size: rem(30px),
+                $font-weight: 600,
+                $line-height: rem(30px),
+                $text-transform: none,
+                $margin-top: 0,
+                $margin-bottom: 0
+        ),
+        $h2: type-style(
+                $font-size: rem(24px),
+                $font-weight: 600,
+                $line-height: rem(24px),
+                $text-transform: none,
+                $margin-top: 0,
+                $margin-bottom: 0
+        ),
+        $h3: type-style(
+                $font-size: rem(24px),
+                $font-weight: 600,
+                $line-height: rem(24px),
+                $text-transform: none,
+                $margin-top: 0,
+                $margin-bottom: 0
+        ),
+        $h4: type-style(
+                $font-size: rem(24px),
+                $font-weight: 600,
+                $line-height: rem(24px),
+                $text-transform: none,
+                $margin-top: 0,
+                $margin-bottom: 0
+        ),
+        $h5: type-style(
+                $font-size: rem(24px),
+                $font-weight: 600,
+                $line-height: rem(24px),
+                $text-transform: none,
+                $margin-top: 0,
+                $margin-bottom: 0
+        ),
+        $h6: type-style(
+                $font-size: rem(24px),
+                $font-weight: 600,
+                $line-height: rem(24px),
+                $text-transform: none,
+                $margin-top: 0,
+                $margin-bottom: 0
+        ),
+        $subtitle-1: type-style(
+                $font-size: rem(16px), // pinned columns
+                $font-weight: 400,
+                $line-height: rem(22px),
+                $text-transform: none,
+                $margin-top: 0,
+                $margin-bottom: 0
+        ),
+        $subtitle-2: type-style(
+                $font-size: rem(16px),
+                $font-weight: 400,
+                $line-height: rem(22px),
+                $text-transform: none,
+                $margin-top: 0,
+                $margin-bottom: 0
+        ),
+        $body-1: type-style(
+                $font-size: rem(16px),
+                $font-weight: 400,
+                $line-height: rem(22px),
+                $text-transform: none,
+                $margin-top: 0,
+                $margin-bottom: 0
+        ),
+        $body-2: type-style(
+                $font-size: rem(14px), // input placeholder, navigation
+                $font-weight: 400,
+                $line-height: rem(22px),
+                $text-transform: none,
+                $margin-top: 0,
+                $margin-bottom: 0
+        ),
+        $button: type-style(
+                $font-size: rem(14px),
+                $font-weight: 500,
+                $line-height: rem(16px),
+                $text-transform: none,
+                $margin-top: 0,
+                $margin-bottom: 0
+        ),
+        $caption: type-style(
+                $font-size: rem(16px),
+                $font-weight: 500,
+                $line-height: rem(22px),
+                $text-transform: none,
+                $margin-top: 0,
+                $margin-bottom: 0
+        ),
+        $overline: type-style(
+                $font-size: rem(14px),
+                $font-weight: 400,
+                $line-height: rem(18px),
+                $margin-top: 0,
+                $margin-bottom: 0
+        )
+);

@@ -1,0 +1,15 @@
+@use 'sass:meta';
+@use 'igniteui-angular/theming' as *;
+@use 'variables' as *;
+
+/* autoprefixer grid: on */
+html,
+body {
+    height: 100%;
+    overflow: hidden;
+    margin: 0;
+}
+
+@include core();
+@include typography($font-family: #{meta.inspect($custom-font)}, $type-scale: $custom-type-scale);
+@include fluent-light-theme(palette($primary, $secondary, $surface, $gray, $info, $success, $warn, $error));
